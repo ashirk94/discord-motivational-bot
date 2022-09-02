@@ -1,5 +1,5 @@
 {
-  "name": "discord-water-bot",
+  "name": "discord-motivational-bot",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ashirk94/discord-water-bot.git"
+    "url": "git+https://github.com/ashirk94/discord-motivational-bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ashirk94/discord-water-bot/issues"
+    "url": "https://github.com/ashirk94/discord-motivational-bot/issues"
   },
-  "homepage": "https://github.com/ashirk94/discord-water-bot#readme",
+  "homepage": "https://github.com/ashirk94/discord-motivational-bot#readme",
   "dependencies": {
     "axios": "^0.27.2",
     "discord.js": "^13.10.3",
