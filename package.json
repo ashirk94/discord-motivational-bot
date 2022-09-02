@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ashirk94/discord-water-bot#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "discord.js": "^13.10.3",
     "dotenv": "^16.0.2"
   },
