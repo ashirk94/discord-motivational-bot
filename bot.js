@@ -10,7 +10,7 @@ client.on('ready', () => {
   
   client.on('messageCreate', msg => { 
     if (msg.content === 'water') {
-       msg.reply('Drink Up!');
+        msg.react('💧')
     }
   });
 
