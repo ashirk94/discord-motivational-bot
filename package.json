@@ -1,0 +1,29 @@
+{
+  "name": "discord-water-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "devStart": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashirk94/discord-water-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashirk94/discord-water-bot/issues"
+  },
+  "homepage": "https://github.com/ashirk94/discord-water-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.10.3",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
