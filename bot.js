@@ -6,7 +6,7 @@ const options = {
 	url: 'https://motivational-quotes1.p.rapidapi.com/motivation',
 	headers: {
 		'content-type': 'application/json',
-		'X-RapidAPI-Key': '30cb036f00msh6e18bbb6eb2f798p10dd84jsn1382d5ed4e88',
+		'X-RapidAPI-Key': process.env.RAPID_API_KEY,
 		'X-RapidAPI-Host': 'motivational-quotes1.p.rapidapi.com'
 	},
 	data: '{"key1":"value","key2":"value"}'
