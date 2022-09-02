@@ -41,4 +41,9 @@ client.on('messageCreate', (msg) => {
 	}
 })
 
+client.on('messageDelete', msg => {
+    let user = msg.author
+    msg.channel.send(`Message deleted by ${user}`)
+})
+
 client.login(process.env.BOT_TOKEN)
